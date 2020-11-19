@@ -1,0 +1,72 @@
+/*
+Size	millimeters	inches
+Letter (US)	215.9 wide x 279.4 tall
+
+
+page size: 215.9mm tall by 139.7mm wide
+*/
+
+body, html{
+  margin: 0;
+  padding: 0;
+  background: #393d44;
+  font-family: "Lato";
+}
+*{
+  box-sizing: border-box;
+}
+
+.printer-page{
+  margin: 0 auto;
+  position: relative;
+  width: 279.4mm;
+  height: 215.9mm;
+  background: lime;
+  page-break-after: always;
+}
+
+@page {
+  margin: 0;
+  
+}
+
+.reader-page{
+  position: absolute;
+
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  padding: 0.5cm;
+}
+
+.page-name-overlay{
+  margin: 50% auto;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 3rem;
+}
+
+
+.reader-page:nth-child(odd){
+  background: #B332E6;
+  left: 0px;
+}
+
+.reader-page:nth-child(even){
+  background: #E032E6;
+  right: 0px;
+}
+
+.front-cover{
+  background: #5932E6 !important;
+
+}
+.back-cover{
+  background: #8632E6 !important;
+}
+
+
+
+.reader-page img {
+  max-width: 100%;
+}

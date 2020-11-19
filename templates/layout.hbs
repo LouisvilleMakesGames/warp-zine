@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <style>{{insert-css}}</style>
+</head>
+
+<body>
+
+<div class="printer-page">
+  <div class="reader-page front-cover">
+    <h1>{{cover.heading}}</h1>
+      <h2>{{cover.subtitle}}<h2>
+  </div>
+  <div class="reader-page back-cover">
+    <h1>{{backCover.heading}}</h1>
+  </div>
+</div>
+
+<div class="printer-page">
+{{#each pages}}
+
+  <div class="reader-page">
+    <h1>{{this.heading}}</h1>
+    {{#each images}}<img src="{{this}}"/>{{/each}}
+    {{#each bodyTextParagraphs}}<p>{{this}}</p>{{/each}}
+  </div>
+
+
+{{/each}}
+
+</div>
+</body>
+</html>

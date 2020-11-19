@@ -1,0 +1,33 @@
+{
+  "cover":{
+    "heading": "WARP ZINE",
+    "subtitle":"A quarterly look at games and interactive art by the Louisville Makes Games community!"
+  },
+  "backCover": {
+    "heading": "The back cover"
+  },
+  "pages":[
+    {
+      "pageNumber": 1,
+      "layout": "default",
+      "heading": "Heading Page 1",
+      "images": [
+        "https://via.placeholder.com/350x350"
+      ],
+      "bodyTextParagraphs": [
+        "The goal of Louisville Makes Games! is to promote game development as a viable career in our city through game development programming classes for kids, industry talks, art gallery showcases and other events. We educate and advocate game development. Our first major project was establishing the physical space called Warp Zone Louisville downtown, which we hope to make home-base for all things game development in Louisville."
+      ]
+    },
+    {
+      "pageNumber": 2,
+      "layout": "default",
+      "heading": "Heading Page 2",
+      "images": [
+        "https://via.placeholder.com/1920x1080"
+      ],
+      "bodyTextParagraphs": [
+        "A twice monthly meetup to connect local developers. Since January 2014, Our community has consistently grown in number of creative individuals and in diversity. The Louisville Game Creator's meetup is a twice-monthly support group and socializing event for game developers of all skill levels to share ideas, be encouraging, and inspire one another. It will always be free and open to anyone interested in creativity and collaboration. Find the next meeting."
+      ]
+    }
+  ]
+}
